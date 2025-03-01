@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "nodemon server.ts",
     "start": "node ./dist/server.js",
-    "build": "npx tsc"
+    "build": "npm i typescript@5.0.2 && npx tsc"
   },
   "dependencies": {
     "@types/cors": "^2.8.13",
