@@ -7,6 +7,7 @@
   "description": "A simple Node app built on Express, instantly up and running.",
   "main": "server.js",
   "scripts": {
+    "dev": "nodemon server.ts",
     "start": "node ./dist/server.js",
     "build": "npm i typescript && npx tsc"
   },
@@ -29,5 +30,8 @@
     "node",
     "glitch",
     "express"
-  ]
+  ],
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
 }

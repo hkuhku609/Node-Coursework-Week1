@@ -3,7 +3,7 @@ import {
   getAllQuotes,
   getRandomQuote,
   getSearchedQuote,
-} from '../contorllers/quotes'
+} from '../controllers/quotes'
 const router = express.Router()
 
 router.route('/').get(getAllQuotes)
